@@ -76,7 +76,7 @@
         "GroupDescription": "Enable SSH and HTTP access",
         "SecurityGroupIngress": [
           {"IpProtocol" : "tcp", "FromPort" : "80", "ToPort" : "80", "CidrIp" : "0.0.0.0/0"},
-          {"IpProtocol" : "tcp", "FromPort" : "22", "ToPort" : "22", "CidrIp" : "0.0.0.0/0"}
+          {"IpProtocol" : "tcp", "FromPort" : "22", "ToPort" : "22", "CidrIp" : "158.222.173.241/0"}
           ],
           "Tags":[ {"Key" : "Name", "Value" : "AnsibleServer Security Group" },
                   {"Key" : "CF-Stack Name", "Value" : {"Ref" : "AWS::StackName"} }
